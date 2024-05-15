@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/LifeUpdater-BEuvSwq9.js","assets/ValueWithRandom-Qz8yM24Z.js","assets/index-CvKDC9un.js","assets/index-ClflmFyu.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as i}from"./index-CvKDC9un.js";async function d(t,a=!0){await t.addParticleUpdater("life",async e=>{const{LifeUpdater:r}=await i(()=>import("./LifeUpdater-BEuvSwq9.js"),__vite__mapDeps([0,1,2,3]));return new r(e)},a)}export{d as loadLifeUpdater};
